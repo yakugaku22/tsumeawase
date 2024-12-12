@@ -1,1 +1,66 @@
+ <!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>田川市つめあわせ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>田川市つめあわせ (仮)</h1>
+    </header>
+    <div class="container">
+        <p>田川市でつくられているたべものの詰め合わせセットです。田川市内様々な場所からお取り寄せしているのでお土産にもおすすめです。シャッター街で販売しています。</p>
 
+        <section class="product-list">
+            <div class="product">
+                <h3>① 名称: 焼きドーナツ</h3>
+                <p>店名: といのドーナツ</p>
+                <p>油で揚げないので体に優しくヘルシーです。</p>
+                <a href="http://toy-no-donuts.jp/" target="_blank">公式サイト</a>
+                <button onclick="showInfo('焼きドーナツ', 'といのドーナツ')">もっと見る</button>
+            </div>
+
+            <div class="product">
+                <h3>② 名称: 有機トマトジャム</h3>
+                <p>トマト本来の風味やうまみを堪能できる商品です。1度ご試食いただくと、一般的なトマト加工商品との違いがわかります。</p>
+                <a href="https://www.torigoe-network.com/blank-2" target="_blank">公式サイト</a>
+                <button onclick="showInfo('有機トマトジャム', 'トリゴエネットワーク')">もっと見る</button>
+            </div>
+
+            <div class="product">
+                <h3>③ 名称: しょうがの佃煮</h3>
+                <p>店名: 来てみんね・かながわ</p>
+                <p>特産生姜を使った甘辛な自信作。パッケージにもこだわっています。</p>
+                <a href="https://fukuoka-rokujika.com/96/" target="_blank">公式サイト</a>
+                <button onclick="showInfo('しょうがの佃煮', '来てみんね・かながわ')">もっと見る</button>
+            </div>
+
+            <div class="product">
+                <h3>④ 名称: やきもち</h3>
+                <p>店名: 篠原茶舗 (お茶屋さんの焼きもち)</p>
+                <p>おもちやドリンクの種類が多くて選べきれないかも⁉︎</p>
+                <a href="https://chikuski.jp/gourmet/shinohara/" target="_blank">公式サイト</a>
+                <button onclick="showInfo('やきもち', '篠原茶舗')">もっと見る</button>
+           </div>
+
+           <div class="product">
+                <h3>⑤ 名称: チロルチョコ</h3>
+                <p>店名: チロルチョコアウトレットショップ</p>
+                <p>ここでしか販売されていない幻のチロルチョコを購入できるかも⁉︎</p>
+                <a href="https://www.crossroadfukuoka.jp/spot/11794" target="_blank">公式サイト</a>
+               <button onclick="showInfo('チロルチョコ', 'チロルチョコアウトレットショップ')">もっと見る</button>
+           </div>
+
+        </section>
+
+        <div id="info">
+            <h3 id="info-title"></h3>
+            <p id="info-details"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
